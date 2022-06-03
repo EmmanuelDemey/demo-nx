@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@emmanueldemey/data": ["libs/data/src/index.ts"],
+      "@emmanueldemey/model": ["libs/model/src/index.ts"],
+      "@emmanueldemey/test": ["libs/test/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
